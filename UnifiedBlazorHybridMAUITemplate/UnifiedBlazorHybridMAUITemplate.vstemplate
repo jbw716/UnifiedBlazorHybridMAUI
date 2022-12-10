@@ -8,13 +8,13 @@
     </TemplateData>
     <TemplateContent>
         <ProjectCollection>
-            <ProjectTemplateLink ProjectName="UnifiedBlazorHybridMAUI.Root">
+            <ProjectTemplateLink ProjectName="Root">
                 UnifiedBlazorHybridMAUI.Root\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink ProjectName="UnifiedBlazorHybridMAUI.WASM">
+            <ProjectTemplateLink ProjectName="WASM">
                 UnifiedBlazorHybridMAUI.WASM\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink ProjectName="UnifiedBlazorHybridMAUI.MAUI">
+            <ProjectTemplateLink ProjectName="MAUI">
                 UnifiedBlazorHybridMAUI.MAUI\MyTemplate.vstemplate
             </ProjectTemplateLink>
         </ProjectCollection>

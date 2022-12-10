@@ -59,6 +59,6 @@
       <BundleResource Include="Resources\Images\dotnet_bot.svg" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\UnifiedBlazorHybridMAUI\UnifiedBlazorHybridMAUI.csproj" />
+      <ProjectReference Include="..\UnifiedBlazorHybridMAUI.Root\UnifiedBlazorHybridMAUI.Root.csproj" />
     </ItemGroup>
 </Project>

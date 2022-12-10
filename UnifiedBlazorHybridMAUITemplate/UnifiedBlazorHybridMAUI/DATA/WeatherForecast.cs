@@ -1,4 +1,4 @@
-﻿namespace UnifiedBlazorHybridMAUI.Data;
+﻿namespace $safeprojectname$.Data;
 
 public class WeatherForecast
 {

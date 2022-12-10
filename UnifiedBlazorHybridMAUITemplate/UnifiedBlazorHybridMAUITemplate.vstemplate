@@ -1,0 +1,22 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>Unified Blazor Hybrid MAUI</Name>
+        <Description>A solution that includes a main project, MAUI Blazor Hybrid project, and Blazor WASM project, that allows for a true "write once" experience for developing for mobile devices and the web.</Description>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <ProjectTemplateLink ProjectName="UnifiedBlazorHybridMAUI.Root">
+                UnifiedBlazorHybridMAUI.Root\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="UnifiedBlazorHybridMAUI.WASM">
+                UnifiedBlazorHybridMAUI.WASM\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="UnifiedBlazorHybridMAUI.MAUI">
+                UnifiedBlazorHybridMAUI.MAUI\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using UnifiedBlazorHybridMAUI.Data;
+using UnifiedBlazorHybridMAUI.Root.Data;
 
 namespace $safeprojectname$;
 

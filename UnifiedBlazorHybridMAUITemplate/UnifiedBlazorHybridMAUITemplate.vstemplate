@@ -8,8 +8,8 @@
     </TemplateData>
     <TemplateContent>
         <ProjectCollection>
-            <ProjectTemplateLink ProjectName="$projectname$">
-                UnifiedBlazorHybridMAUI\MyTemplate.vstemplate
+            <ProjectTemplateLink ProjectName="$projectname$.Root">
+                UnifiedBlazorHybridMAUI.Root\MyTemplate.vstemplate
             </ProjectTemplateLink>
             <ProjectTemplateLink ProjectName="$projectname$.WASM">
                 UnifiedBlazorHybridMAUI.WASM\MyTemplate.vstemplate

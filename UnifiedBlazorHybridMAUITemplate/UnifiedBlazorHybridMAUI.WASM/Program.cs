@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using UnifiedBlazorHybridMAUI;
-using UnifiedBlazorHybridMAUI.Data;
+using UnifiedBlazorHybridMAUI.Root;
+using UnifiedBlazorHybridMAUI.Root.Data;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<Main>("#app");
